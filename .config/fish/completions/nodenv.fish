@@ -1,0 +1,1 @@
+/Users/inomar14/.config/fisherman/nodenv/completions/nodenv.fish

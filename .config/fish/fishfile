@@ -5,8 +5,10 @@ oh-my-fish/theme-bobthefish
 fisherman/fzf
 fisherman/getopts
 fisherman/gitignore
+fisherman/nodenv
 oh-my-fish/plugin-peco
 yoshiori/fish-peco_select_ghq_repository
+fisherman/rbenv
 fisherman/spin
 oh-my-fish/plugin-thefuck
 fisherman/z
