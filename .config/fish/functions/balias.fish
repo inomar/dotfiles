@@ -1,1 +1,0 @@
-/Users/inomar14/.config/fisherman/balias/functions/balias.fish

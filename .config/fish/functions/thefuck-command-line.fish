@@ -1,1 +1,0 @@
-/Users/inomar14/.config/fisherman/thefuck/functions/thefuck-command-line.fish

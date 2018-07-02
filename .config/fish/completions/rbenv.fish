@@ -1,1 +1,0 @@
-/Users/inomar14/.config/fisherman/rbenv/completions/rbenv.fish

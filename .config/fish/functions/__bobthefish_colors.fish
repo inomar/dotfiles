@@ -1,1 +1,0 @@
-/Users/inomar14/.config/fisherman/bobthefish/functions/__bobthefish_colors.fish

@@ -1,0 +1,9 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "terminal.external.osxExec": "iTerm2.app",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.rendererType": "dom"
+}
