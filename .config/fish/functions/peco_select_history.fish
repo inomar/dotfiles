@@ -1,0 +1,1 @@
+/Users/inomar14/.config/fisherman/peco/functions/peco_select_history.fish

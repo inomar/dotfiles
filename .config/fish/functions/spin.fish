@@ -1,0 +1,1 @@
+/Users/inomar14/.config/fisherman/spin/spin.fish

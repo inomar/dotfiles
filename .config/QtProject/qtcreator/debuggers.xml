@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorDebuggers>
+<!-- Written by QtCreator 3.5.1, 2017-05-06T16:58:32. -->
+<qtcreator>
+ <data>
+  <variable>DebuggerItem.0</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-macos-generic-mach_o-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="AutoDetectionSource"></value>
+   <value type="QString" key="Binary">/Library/Developer/CommandLineTools/usr/bin/lldb</value>
+   <value type="QString" key="DisplayName">システムの LLDB (パス:/Library/Developer/CommandLineTools/usr/bin/lldb)</value>
+   <value type="int" key="EngineType">256</value>
+   <value type="QString" key="Id">{43006536-99d5-4407-96a3-6a6406d26748}</value>
+   <value type="QString" key="Version">360.1.70
+</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.1</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-macos-generic-mach_o-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="AutoDetectionSource"></value>
+   <value type="QString" key="Binary">/usr/bin/lldb</value>
+   <value type="QString" key="DisplayName">システムの LLDB (パス:/usr/bin/lldb)</value>
+   <value type="int" key="EngineType">256</value>
+   <value type="QString" key="Id">{25c0eab0-dc74-4faf-a839-736594844c5c}</value>
+   <value type="QString" key="Version">360.1.70
+</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.Count</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>
