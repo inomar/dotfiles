@@ -1,11 +1,17 @@
 # DOTFILES
 
+## homebrew
+### install homebrew
+```
+$ chmod -x brew_install.sh
+$ sh ./brew_install.sh
+```
 
 ## vscode
 
 ### install extensions
 ```
-$ chmod  400 install_extensions.sh
+$ chmod -x install_extensions.sh
 $ sh ./install_extensions.sh
 ```
 
