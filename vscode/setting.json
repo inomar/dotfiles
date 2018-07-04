@@ -2,8 +2,10 @@
 {
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.external.osxExec": "Hyper.app",
     "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.rendererType": "dom"
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.fontFamily": ["Droid Sans Mono for Powerline", "Menlo", "DejaVu Sans Mono", "Lucida Console", "monospace"],
 }

@@ -11,3 +11,6 @@ function fish_user_key_bindings
   bind \c] peco_select_ghq_repository
 end
 
+set -x PATH /usr/local/opt/mysql@5.7/bin $PATH
+set -x DYLD_LIBRARY_PATH /usr/local/opt/mysql@5.7 $DYLD_LIBRARY_PATH
+
