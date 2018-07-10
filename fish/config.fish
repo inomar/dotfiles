@@ -1,3 +1,4 @@
+
 set -x PERL_BADLANG 0
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
@@ -13,4 +14,7 @@ end
 
 set -x PATH /usr/local/opt/mysql@5.7/bin $PATH
 set -x DYLD_LIBRARY_PATH /usr/local/opt/mysql@5.7 $DYLD_LIBRARY_PATH
+
+
+alias mysql5.7="/usr/local/opt/mysql@5.7/bin/mysql.server"
 
