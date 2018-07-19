@@ -25,3 +25,6 @@ $ sh ./install_extensions.sh
 `ctr + r` : peco_history
 `crt + ]` : peco_ghq
 ``` 
+
+## 参考
+[fish shell](https://dev.classmethod.jp/etc/fish-shell-life/)
