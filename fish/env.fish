@@ -1,4 +1,5 @@
-set -x PATH $HOME/.rbenv/bin $PATH
+set -x LANG ja_JP.UTF-8 
+#set -x PATH $HOME/.rbenv/bin $PATH
 set -x PATH $HOME/.anyenv/bin $PATH
 
 # rbenv

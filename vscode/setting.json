@@ -7,5 +7,12 @@
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-    "terminal.integrated.fontFamily": ["Droid Sans Mono for Powerline", "Menlo", "DejaVu Sans Mono", "Lucida Console", "monospace"],
+    "terminal.integrated.fontFamily": [
+        "Droid Sans Mono for Powerline",
+        "Menlo",
+        "DejaVu Sans Mono",
+        "Lucida Console",
+        "monospace"
+    ],
+    "window.zoomLevel": 0,
 }
