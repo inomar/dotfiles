@@ -14,7 +14,7 @@ end
 
 set -x PATH /usr/local/opt/mysql@5.7/bin $PATH
 set -x DYLD_LIBRARY_PATH /usr/local/opt/mysql@5.7 $DYLD_LIBRARY_PATH
-
+set -x PATH /usr/local/opt/libxml2/bin $PATH
 
 alias mysql5.7="/usr/local/opt/mysql@5.7/bin/mysql.server"
-
+alias mymongod="sudo mongod --fork --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log"

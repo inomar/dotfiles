@@ -7,8 +7,6 @@ export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 # pyenv
-#export PYENV_ROOT=$HOME/.pyenv/bin:$PATH
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # brew-cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
@@ -44,3 +42,6 @@ eval "$(anyenv init -)"
 
 
 export EDITOR="vim"
+export PATH="/usr/local/opt/libiconv/bin:$PATH"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PATH="/usr/local/opt/libxslt/bin:$PATH"

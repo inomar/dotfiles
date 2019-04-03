@@ -1,7 +1,6 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
     "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "terminal.external.osxExec": "Hyper.app",
     "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -15,4 +14,12 @@
         "monospace"
     ],
     "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "eslint.packageManager": "yarn",
+    "npm.packageManager": "yarn",
+    "indentRainbow.indentSetter": {
+        "javascript": { "tabSize": 2, "insertSpaces": true },
+    },
+    "workbench.iconTheme": "material-icon-theme",
 }
