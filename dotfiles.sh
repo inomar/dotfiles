@@ -10,3 +10,5 @@ if [ -a $HOME/.config/fish/config.fish ]; then
 fi
 ln -f $HOME/dotfiles/fish/config.fish $HOME/.config/fish/
 ln -f $HOME/dotfiles/fish/env.fish $HOME/.config/fish/conf.d/
+ln -f $HOME/dotfiles/fish/alias.fish $HOME/.config/fish/conf.d/
+ln -f $HOME/dotfiles/fish/gcp.fish $HOME/.config/fish/conf.d/

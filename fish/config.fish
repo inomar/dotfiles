@@ -1,10 +1,12 @@
-
 set -x PERL_BADLANG 0
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
 
+set -x GOPATH $HOME/go
+set -x PATH $GOPATH/bin $PATH
+
 function fish_prompt
-     powerline-shell --shell bare $status
+  eval $GOPATH/bin/powerline-go -error $status -shell bare
 end
 
 function fish_user_key_bindings

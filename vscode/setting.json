@@ -13,7 +13,7 @@
         "Lucida Console",
         "monospace"
     ],
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.tabSize": 2,
     "eslint.packageManager": "yarn",
@@ -22,4 +22,5 @@
         "javascript": { "tabSize": 2, "insertSpaces": true },
     },
     "workbench.iconTheme": "material-icon-theme",
+    "swaggerViewer.defaultPort": 9001
 }
