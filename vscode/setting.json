@@ -1,6 +1,5 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "terminal.external.osxExec": "Hyper.app",
     "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -13,7 +12,6 @@
         "Lucida Console",
         "monospace"
     ],
-    "window.zoomLevel": -1,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.tabSize": 2,
     "eslint.packageManager": "yarn",
@@ -22,5 +20,24 @@
         "javascript": { "tabSize": 2, "insertSpaces": true },
     },
     "workbench.iconTheme": "material-icon-theme",
-    "swaggerViewer.defaultPort": 9001
+    "swaggerViewer.defaultPort": 9001,
+    "editor.wordWrap": "on",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": -1,
+    "editor.fontSize": 16,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Material Theme Darker",
+    "stylelint.autoFixOnSave": true,
+    "git.ignoreMissingGitWarning": true,
+    "yaml.schemaStore.enable": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": null,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true
 }

@@ -1,9 +1,13 @@
+set -x TZ Asia/Tokyo
 set -x PERL_BADLANG 0
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
 
+# set -x PATH /usr/local/bin $PATH
+
 set -x GOPATH $HOME/go
 set -x PATH $GOPATH/bin $PATH
+
 
 function fish_prompt
   eval $GOPATH/bin/powerline-go -error $status -shell bare

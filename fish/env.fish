@@ -41,3 +41,10 @@ function ndenv
   end
 end
 
+# pyenv
+# set -x PYENV_ROOT "/usr/local/bin/pyenv"
+# set -x PATH $PATH "$PYENV_ROOT/bin"
+# set -gx PATH "$PYENV_ROOT/shims" $PATH
+# set -gx PYENV_SHELL fish
+
+source (pyenv init - | psub)

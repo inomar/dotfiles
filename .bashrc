@@ -14,3 +14,6 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 export PATH=/usr/local/bin:/usr/bin
 
+
+# added by travis gem
+[ ! -s /Users/inomar14/.travis/travis.sh ] || source /Users/inomar14/.travis/travis.sh
