@@ -67,7 +67,7 @@
 		"!Split",
 		"!Split sequence"
 	],
-	"window.zoomLevel": 2,
+	"window.zoomLevel": 1,
 	"terminal.integrated.automationShell.osx": "",
 	"ruby.rubocop.executePath": "/Users/inomar14/.anyenv/envs/rbenv/shims/",
 	"redhat.telemetry.enabled": true,
