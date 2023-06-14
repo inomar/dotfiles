@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/bash_profile.pre.bash" ]] && builtin source "$HOME/.fig/shell/bash_profile.pre.bash"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
@@ -55,3 +57,8 @@ if [ -f '/Users/inomar14/google-cloud-sdk/path.bash.inc' ]; then . '/Users/inoma
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/inomar14/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/inomar14/google-cloud-sdk/completion.bash.inc'; fi
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/bash_profile.post.bash" ]] && builtin source "$HOME/.fig/shell/bash_profile.post.bash"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

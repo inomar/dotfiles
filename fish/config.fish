@@ -24,3 +24,5 @@ set -x PATH /usr/local/opt/libxml2/bin $PATH
 
 alias mysql5.7="/usr/local/opt/mysql@5.7/bin/mysql.server"
 alias mymongod="sudo mongod --fork --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log"
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH

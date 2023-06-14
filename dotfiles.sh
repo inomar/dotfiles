@@ -2,8 +2,11 @@
 ln -sf $HOME/dotfiles/.vimrc $HOME/.vimrc
 ln -sf $HOME/dotfiles/.bash_profile $HOME/.bash_profile
 ln -sf $HOME/dotfiles/.bashrc $HOME/.bashrc
+if [ -a $HOME/.hyper.js ]; then
+  rm $HOME/.hyper.js
+fi
 ln -sh $HOME/dotfiles/.hyper.js $HOME/.hyper.js
-ln -sh $HOME/dotfiles/vscode/setting.json $HOME/Library/Application\ Support/Code/User/settings.json
+# ln -sh $HOME/dotfiles/vscode/setting.json $HOME/Library/Application\ Support/Code/User/settings.json
 
 if [ -a $HOME/.config/fish/config.fish ]; then
   rm $HOME/.config/fish/config.fish
